@@ -27,10 +27,6 @@ span.cm-comment {
   background-color: #232323;
 }
 
-#notebook-container h1, #notebook-container h2, #notebook-container h3 {
-  color: #eeeeee !important;
-}
-
 .input_prompt {
   color: white !important;
 }
@@ -59,8 +55,16 @@ span.cm-builtin, span.cm-number {
   text-shadow: 0 0 3px #100c0f, 0 0 10px #257c55, 0 0 35px #212724;
 }
 
+span .cm-link {
+  color: #92f1e8 !important;
+}
+
 .output_subarea {
   background-color: #dec48a;
+}
+
+.text_cell_render {
+  background-color: #f2f2ee;
 }
 
 .cm-s-ipython .CodeMirror-matchingbracket {
