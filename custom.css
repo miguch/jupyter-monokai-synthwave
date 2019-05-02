@@ -14,8 +14,9 @@ div.CodeMirror {
 }
 
 span.cm-keyword {
-  color: #d27277 !important; 
-  text-shadow: 0 0 3px #100c0f, 0 0 10px #b16068, 0 0 35px #212724;
+  color: #f28692 !important;
+  font-weight: 400 !important;
+  text-shadow: 0 0 3px #100c0f, 0 0 4px #fc1f2c, 0 0 35px #212724;
 }
 
 span.cm-comment {
@@ -33,7 +34,7 @@ span.cm-comment {
 
 span.cm-variable, span.cm-property {
   color: #eeeeee !important;
-  text-shadow: 0 0 2px #100c0f, 0 0 10px #cccccc, 0 0 35px #212724;
+  text-shadow: 0 0 2px #100c0f, 0 0 1px #cccccc, 0 0 35px #212724;
 }
 
 span.cm-operator {
@@ -42,7 +43,7 @@ span.cm-operator {
 
 span.cm-string {
   color: #fff5f6 !important;
-  text-shadow: 0 0 2px #000, 0 0 10px #fc1f2c, 0 0 5px #fc1f2c, 0 0 25px #fc1f2c;
+  text-shadow: 0 0 2px #000, 0 0 5px #fc1f2c, 0 0 5px #fc1f2c, 0 0 25px #fc1f2c;
 }
 
 span.cm-def {
@@ -50,9 +51,15 @@ span.cm-def {
   text-shadow: 0 0 3px #4050b3, 0 0 3px #4050b3, 0 0 5px #4050b3, 0 0 10px #4050b3;
 }
 
-span.cm-builtin, span.cm-number {
+span.cm-builtin {
   color: #72f1b8 !important;
   text-shadow: 0 0 3px #100c0f, 0 0 10px #257c55, 0 0 35px #212724;
+}
+
+span.cm-number {
+  color: #fffcf7 !important;
+  text-shadow: 0 0 2px #393a33, 0 0 35px #ffffff44, 0 0 10px #f39f05,
+    0 0 2px #f39f05;
 }
 
 span .cm-link {
