@@ -1,0 +1,72 @@
+div.CodeMirror pre {
+  font-family: "Ubuntu Mono", "Fira Code"; 
+  font-size: 12pt;
+  font-weight: lighter;
+}
+
+div.CodeMirror {
+  background-image: linear-gradient(to bottom, #292733 75%, #34294f);
+  background-color: #292733;
+}
+
+.CodeMirror-line {
+  color: white !important;
+}
+
+span.cm-keyword {
+  color: #d27277 !important; 
+  text-shadow: 0 0 3px #100c0f, 0 0 10px #b16068, 0 0 35px #212724;
+}
+
+span.cm-comment {
+  color: #f92aad !important;
+  text-shadow: 0 0 2px #100c0f, 0 0 5px #dc078e33, 0 0 10px #fff6;
+}
+
+#notebook-container, .end_space, #notebook_panel > * {
+  background-color: #232323;
+}
+
+#notebook-container h1, #notebook-container h2, #notebook-container h3 {
+  color: #eeeeee !important;
+}
+
+.input_prompt {
+  color: white !important;
+}
+
+span.cm-variable, span.cm-property {
+  color: #eeeeee !important;
+  text-shadow: 0 0 2px #100c0f, 0 0 10px #cccccc, 0 0 35px #212724;
+}
+
+span.cm-operator {
+  color: #92f1e8 !important;
+}
+
+span.cm-string {
+  color: #fff5f6 !important;
+  text-shadow: 0 0 2px #000, 0 0 10px #fc1f2c, 0 0 5px #fc1f2c, 0 0 25px #fc1f2c;
+}
+
+span.cm-def {
+  color: #92f1e8 !important;
+  text-shadow: 0 0 3px #4050b3, 0 0 3px #4050b3, 0 0 5px #4050b3, 0 0 10px #4050b3;
+}
+
+span.cm-builtin, span.cm-number {
+  color: #72f1b8 !important;
+  text-shadow: 0 0 3px #100c0f, 0 0 10px #257c55, 0 0 35px #212724;
+}
+
+.output_subarea {
+  background-color: #dec48a;
+}
+
+.cm-s-ipython .CodeMirror-matchingbracket {
+  color: lightgreen !important;
+}
+
+.output_stderr {
+  color: black !important;
+}
