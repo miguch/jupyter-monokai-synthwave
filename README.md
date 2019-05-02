@@ -1,3 +1,3 @@
-### How to Use
+## How to Use
 
-Simply put `custom.css` under `~/.jupyter/custom/custom.css`.
+Simply put `custom.css` under `~/.jupyter/custom/`.
