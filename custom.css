@@ -60,7 +60,7 @@ span.cm-builtin {
   text-shadow: 0 0 3px #100c0f, 0 0 10px #257c55, 0 0 35px #212724;
 }
 
-span.cm-number {
+span.cm-number, span.cm-variable-2 {
   color: #fffcf7 !important;
   text-shadow: 0 0 2px #393a33, 0 0 35px #ffffff44, 0 0 10px #f39f05,
     0 0 2px #f39f05;
